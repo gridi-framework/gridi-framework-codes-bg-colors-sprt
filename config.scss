@@ -1,0 +1,8 @@
+//Code
+$code-background-colors-support-parser: (
+    background-color: 'background-inner-color',
+    color: 'color'
+) !default;
+
+$code-background-colors-support-extra-colors-palette: () !default;
+$code-background-colors-support-skip-colors-palette: null !default;

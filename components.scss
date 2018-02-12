@@ -1,0 +1,6 @@
+//Code
+@each $palette-color-prefix, $palette-color-variables in get-background-colors-palette($code-background-colors-support-extra-colors-palette, $code-background-colors-support-skip-colors-palette) {
+    .#{$background-colors-class-prefix}-#{$palette-color-prefix} {
+        @include code-colors(parse-map($code-background-colors-support-parser, $palette-color-variables));
+    }
+}
